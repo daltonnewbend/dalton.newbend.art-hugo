@@ -5,8 +5,8 @@ url: /shrines/
 menu:
   main:
     weight: 2
-    identifier: shrines
-    title: shrines
+    identifier: 'shrines'
+    title: 'shrines'
 unifiedAlt: ' '
 _build:
   publishResources: false
