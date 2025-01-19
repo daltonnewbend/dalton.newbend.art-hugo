@@ -4,9 +4,9 @@ layout: single
 url: /anthologies/
 menu:
   main:
-    weight: 3
+    weight:
     identifier: 'anthologies'
-    title: 'anthologies'
+    title:
 unifiedAlt: ' '
 _build:
   publishResources: false
