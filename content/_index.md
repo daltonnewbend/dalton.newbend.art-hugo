@@ -5,8 +5,8 @@ url:
 menu:
   main:
     weight:
-    identifier:
-    title:
+    identifier: ''
+    title: ''
 unifiedAlt: ' '
 _build:
   publishResources: true
