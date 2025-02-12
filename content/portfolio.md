@@ -18,8 +18,6 @@ _build:
 
 - [anthologies](../anthologies/)
 
-- [jars of things and stuff](../jars-of-things-and-stuff/)
-
 - [domestic_recipe](../domestic_recipe/)
 
 - [drifting into the later](../drifting-into-the-later/)
