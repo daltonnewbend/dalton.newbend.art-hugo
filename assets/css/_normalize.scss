@@ -1,19 +1,19 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  border-width: 0;
+    box-sizing: border-box;
+    border-width: 0;
 }
 
 html {
-  line-height: 1.5;
-  font-family: ui-sans-serif, system-ui, sans-serif;
-  -webkit-text-size-adjust: 100%;
-  tab-size: 4;
+    line-height: 1.5;
+    font-family: FiraCode, monospace;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 h1,
@@ -22,51 +22,51 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: inherit;
-  font-size: inherit;
+    font-weight: inherit;
+    font-size: inherit;
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 button,
 input {
-  font-family: inherit;
-  font-feature-settings: inherit;
-  font-variation-settings: inherit;
-  font-size: 100%;
-  font-weight: inherit;
-  line-height: inherit;
-  color: inherit;
-  margin: 0;
-  padding: 0;
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 button,
 select {
-  text-transform: none;
+    text-transform: none;
 }
 
 button {
-  -webkit-appearance: button;
-  background-image: none;
-  background-color: transparent;
-  cursor: pointer;
+    -webkit-appearance: button;
+    background-image: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 :disabled {
-  cursor: default;
+    cursor: default;
 }
 
 :-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 h1,
@@ -74,25 +74,25 @@ h2,
 h3,
 figure,
 p {
-  margin: 0;
+    margin: 0;
 }
 
 ul,
 menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 img,
 svg,
 video {
-  display: block;
-  vertical-align: middle;
+    display: block;
+    vertical-align: middle;
 }
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
