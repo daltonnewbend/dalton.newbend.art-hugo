@@ -1,0 +1,63 @@
+baseURL = 'https://dalton.newbend.art/'
+languageCode = 'en-us'
+title = 'dalton newbend'
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+timeout = "120s"
+
+[params]
+  defaultTheme = "dark"
+  description = "dalton newbend's visual art portfolio"
+  title = "dalton newbend"
+  [params.author]
+    email = "daltonnewbend@proton.me"
+    name = "dalton newbend"
+  [params.socialIcons]
+    instagram = "https://www.instagram.com/daltonnewbend.art/"
+    github = "https://github.com/daltonnewbend/"
+    email = "mailto:daltonnewbend@proton.me"
+    website = "https://and-them.art"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRowHeight = 288
+    #targetRowHeightTolerance = 0.25
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[module]
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+[menu]
+  [[menu.footer]]
+    name = "© dalton newbend"
+    url = "https://thepapers.newbend.art/dalton-newbend/"
+    weight = 1
+  [[menu.footer]]
+    name = "the papers"
+    url = "https://thepapers.newbend.art"
+    weight = 3
+  [[menu.footer]]
+      name = "and them"
+      url = "https://and-them.art"
+      weight = 4
+  [[menu.footer]]
+      name = "SHED SHOW"
+      url = "https://shedshow.and-them.art"
+      weight = 5
+
+[services]
+  [services.rss]
+    limit = 100
