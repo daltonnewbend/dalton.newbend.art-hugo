@@ -17,7 +17,7 @@ timeout = "120s"
     instagram = "https://www.instagram.com/daltonnewbend.art/"
     github = "https://github.com/daltonnewbend/"
     email = "mailto:daltonnewbend@proton.me"
-    website = "https://and-them.art"
+    #website = "https://and-them.art"
   [params.gallery]
     #boxSpacing = 10
     #targetRowHeight = 288
